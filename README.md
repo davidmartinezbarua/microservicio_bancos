@@ -41,7 +41,7 @@ Para ejecutar la aplicación localmente, asumiendo que utilizas Maven y una base
 Desde el directorio raíz del proyecto, compila y ejecuta la aplicación:
 
 ```bash
-# Empaqueta la aplicación (salta los tests si lo deseas)
+# Empaqueta la aplicación 
 mvn clean install -DskipTests
 
 # Ejecuta el JAR generado
