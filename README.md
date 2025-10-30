@@ -4,7 +4,7 @@
 
 Este proyecto es un **Microservicio CRUD** (Crear, Leer, Actualizar, Eliminar) desarrollado con **Spring Boot 3** para gestionar la información de entidades bancarias.
 
-La aplicación utiliza el patrón **DTO** para estructurar la transferencia de datos y sigue las buenas prácticas de una API REST moderna.
+La aplicación sigue las mejores prácticas de una API REST moderna, utilizando DTOs (Objetos de Transferencia de Datos) para manejar la entrada y salida de información de manera estructurada, y el patrón Builder para la creación limpia de entidades.
 
 ### Características Clave ✨
 
@@ -108,4 +108,4 @@ curl -u user:userpass -X GET 'http://localhost:8080/api/v1/bancos?page=0&size=5&
 
 Una vez que la aplicación esté en ejecución, se puede acceder a la documentación interactiva de Swagger, la cual es de acceso público:
 
-$$\text{http://localhost:8080/swagger-ui.html}$$
+http://localhost:8080/swagger-ui.html
